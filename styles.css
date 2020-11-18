@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+    /* Reset para REMS - 62.5% = 10 px de 16px */
+    box-sizing: border-box;
+    /* Aquí usamos un "snipped", lo que hacemos en nuestra web, es que el padding
+    no afecte al tamaño que le damos a nuestras etiquetas, botones etc, Siempre nos respetará
+    el tamaño que hemos puesto sin que el padding nos modifique el tamaño. */
+}
+
+*,
+*:before,
+*:after {
+    /* Esto es parte del "snipped" para que el padding no nos afecte al tamaño */
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+
+
+/** Globales **/
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    /* =1200px */
+    margin: 0 auto;
+    /* La disposicion es como las agujas del reloj, a las 12, 15, 18, 21, 00*/
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+
+/** UTILIDADES **/
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300 {
+    /* framework, para cambiar el grosor de las letras */
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.d-block {
+    /* Para que de prioridad al CSS, se añade !important, asi priorizamos sobre la clase
+    para que tome le valor que queremos que tenga a nivel general */
+    display: block!important;
+    /* Esto se coloca, porque la prioridad siempre es de arriba hacia abajo en el CSS */
+}
