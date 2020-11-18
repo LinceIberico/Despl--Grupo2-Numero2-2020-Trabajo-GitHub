@@ -73,3 +73,71 @@ h4 {
     display: block!important;
     /* Esto se coloca, porque la prioridad siempre es de arriba hacia abajo en el CSS */
 }
+
+
+/* Botones */
+
+.boton {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    /* En botones hechos con la etiqueta <a>, se usa display inline por defecto
+    por lo que si ponemos inline-block podemos utilizar margin */
+    margin-top: 2rem;
+    text-align: center;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.boton-amarillo {
+    background-color: #E08709;
+}
+
+.boton-verde {
+    background-color: #71B100;
+}
+
+
+/* HEADER*/
+
+.site-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header.inicio {
+    background: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    /*vh se usa para adaptar la altura al de la pantalla que se esta visualizando*/
+    min-height: 60rem;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header h1 {
+    color: #ffffff;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 5rem;
+    /* Interlineado */
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
