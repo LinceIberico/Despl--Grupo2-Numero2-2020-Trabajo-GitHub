@@ -141,3 +141,24 @@ h4 {
     align-items: center;
     padding-top: 3rem;
 }
+
+
+/*Estilos de la web de contacto*/
+form p{
+    font-size: 1.4rem;
+    color: #333333;
+    margin: 2rem 0 0 0;
+}
+legend{
+    font-size: 2rem;
+    color: #333333;
+}
+
+label{
+    display: block;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+/**************************************
