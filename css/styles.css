@@ -74,6 +74,22 @@ h4 {
     /* Esto se coloca, porque la prioridad siempre es de arriba hacia abajo en el CSS */
 }
 
+/*Flecha para hacer scroll*/
+
+#flecha{
+    background-image: url('img/flecha.svg');
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:#ffff;
+    opacity: 0.3;
+    position:fixed;
+    cursor: pointer;
+}
+
+#flecha:hover{
+    opacity: 1;
+}
 
 /* Botones */
 
